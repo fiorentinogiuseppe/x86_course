@@ -1,22 +1,20 @@
-format PE console
+
+; fasm demonstration of writing simple ELF executable
+
+format ELF executable 3
 entry start
 
-include ''
-
-section '.text' code readable executable
+; ===============================================
+segment readable executable
 
 start:
-  inc eax
-  inc eax
-  dec eax
-  inc eax
+    ; Your program begins here:
+    inc     eax
+    inc     eax
+    dec     eax
+    inc     eax
 
-  push 0
-  call [ExitProcess]
-
-section '.idata' import data readable
-
-library kernel, ''
-
-import kernel,\
-       ExitProcess, 'ExitProcess'
+    ; Exit the process:
+    mov	eax,1
+	  xor	ebx,ebx
+	  int	0x80
