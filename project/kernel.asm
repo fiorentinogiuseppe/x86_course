@@ -1,8 +1,3 @@
-; http://www.eecg.toronto.edu/~amza/www.mindsec.com/files/x86regs.html x86 registradores
-; https://upload.wikimedia.org/wikipedia/commons/1/15/Table_of_x86_Registers_svg.svg
-; https://wiki.osdev.org/Real_mode_assembly_bare_bones
-; http://www.ctyme.com/intr/int.htm
-
 org 0x7c00  ; Diretiva Assembler que define onde o codigo sera colocado dentro do executavel
 bits 16     ; Indica que usaremos os codigos para 32bits
 
