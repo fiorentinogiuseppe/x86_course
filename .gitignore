@@ -1,1 +1,4 @@
 sim/
+vdi/my_kernel_x86.vdi
+bin/main_kernel.bin
+img/main_kernel.img

@@ -155,10 +155,6 @@ get_string:
 
   ret           ; retira o endereco de retorno da pilha e retorna o controle para esse local.
 
-; ================
-; Analisando
-; ================
-
 strcmp:
 .loop:
   mov al, [si]   ; grab a byte from SI
