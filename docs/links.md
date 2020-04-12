@@ -6,3 +6,5 @@ Alguns links para ajudar e servir como cola
 * [Tutorial main em que tomei como base](https://wiki.osdev.org/Real_mode_assembly_bare_bones)
 * [Interrupt Jump Table ](http://www.ctyme.com/intr/int.htm)
   * :warning: Tem alguns porn advertisements e não sei o motivo
+* [Times 510 -( $ - $$ ) db 0 means](https://engineersasylum.com/t/times-510-db-0-means/132/2)
+* [MBR/EBR Partition Tables](https://thestarman.pcministry.com/asm/mbr/PartTables.htm#N2)
