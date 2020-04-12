@@ -1,4 +1,4 @@
-# README
+# Projeto de feriadão - x86
 
 Neste projeto tentei reproduzir o tutorial [Real mode assembly I](https://wiki.osdev.org/Real_mode_assembly_bare_bones) o objetivo era aprender um pouco mais de x86.
 
